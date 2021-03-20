@@ -1,0 +1,314 @@
+body{
+    height: 4000px;
+}
+.cl{
+    clear: both;
+}
+.con
+{
+    width: 1170px;
+    margin: auto;
+}
+.hader .slider{
+    height: 560px;
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+}
+.hader .slider .intro{
+    padding-top: 200px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hader .slider .intro  h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-bottom:4px solid #FFFFFF;
+    border-top:4px solid #FFFFFF;
+    padding: 5px ;
+    color:#FFF
+
+
+}
+.hader .slider .intro  button{
+    background:none;
+    margin-top:30px;
+    font-size:20px;
+    border:2px solid #FFF;
+    font-weight:bold;
+    padding:10px 30px;
+    color: #FFFFFF;
+
+}
+
+
+.hader .nav{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.hader .nav h2{
+    float: left;
+}
+.hader .nav h2 span{
+    color: #2ecc71;
+}
+.hader .nav ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.hader .nav ul li{float: left;padding: 10px;}
+.hader .nav ul li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.hader .nav ul li.act a,
+.hader .nav ul li a:hover{
+    color: #30B576;
+}
+
+.features{overflow: hidden;
+padding-top: 40px;
+padding-bottom: 50px;
+
+ }
+.features .feat{
+    float: left;
+    height: 150px;
+    width: 32.33333%;
+
+}
+.features .feat p{
+    line-height: 1.7;
+    color: #888;
+}
+
+.about{
+    overflow: hidden;
+    background-color:#F2F2F2;
+}
+.about .imag
+{
+    float: left;
+    width:40%;
+}
+.about .imag img{width: 100%;
+}
+.about .info{
+    float: left;
+    width: 60%;
+}
+.about .info h2{
+    margin: 25px 0 20px 40px;
+}
+.about .info > p{
+    margin: 0px 0 10px 40px;
+
+}
+.about .info > p:last-of-type{
+    margin-top: 25px;
+}
+.about .info p {
+
+    line-height: 1.7;
+    color: #666;
+}
+.about .info .hob{
+    float: left;
+    overflow: hidden;
+    margin: 15px 0px 0px 40px;
+}
+.about .info .hob div {float: left;
+
+
+}
+.about .info .hob .content {width:50%;overflow:hidden}
+
+.about.info .hob .content .icon {width:12% ;margin-right:5%}
+
+.about .info .hob .content .icon i {margin-top:15px;margin-right:15px;color:#2DCC70}
+
+.about .info .hob .content .text {width:83%}
+
+.about .info .hob .content .text p {margin-top:0}
+
+.about .info .hob .content .text h3 {margin-bottom:5px}
+
+
+.skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.skills .skill,
+.skills .pof{
+    width: 50%;
+    float: left;
+}
+.skills .skill h2 {margin:25px 0 20px 40px}
+
+.skills .skill p {margin:0 0 10px 40px}
+
+.skills .skill p:last-of-type {margin-top:25px}
+
+.skills .skill button {margin-top:20px;margin-left:40px}
+
+.skills .pof .technique {margin-left:50px}
+
+.skills .pof .technique div {background-color:#F2F2F2;height:25px}
+
+.skills .pof .technique div span {
+   background-color:#2DCC70;
+    height:25px;
+    display:block;
+    line-height:25px;
+    text-align:right;
+    color:#FFF;
+    font-weight:bold
+}
+
+
+.res
+{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.res p {padding:0 40px}
+
+.res button {margin-top:15px}
+
+.tex {padding-top:30px;padding-bottom:30px;overflow:hidden}
+
+.tex hr {margin:20px 0;background-color:#999;height:1px;border:0}
+
+.tex .edu {width:50%;margin-right:5%}
+
+.tex .edu h2 {margin:25px 0 20px 40px}
+
+.tex .edu p {margin:0 0 10px 40px}
+
+.tex .edu p:last-of-type {margin-top:25px}
+
+.tex .exp {width:45%;float:left}
+
+.tex .exp h3 {margin-top:80px;margin-bottom:10px}
+
+.tex .exp span {display:block;margin-bottom:10px}
+
+.tex .exp span:first-of-type {color:#999}
+
+.tex .exp span:last-of-type {
+    background-color:#2DCC70;
+    color:#FFF;
+    display:inline-block;
+    padding:4px 10px
+}
+.tex .edu{
+    width: 50%;
+    float: left;
+}
+.test
+{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.prot{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align:center;
+
+
+}
+.prot p{margin-bottom: 30px}
+.prot .wo
+{
+    overflow: hidden;
+}
+.prot .wo > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+.prot .wo > div img{
+    width:92%;
+    margin:10px;
+    padding:3px;
+    background-color:#FFF;
+    border:1px solid #CCC
+}
+.contact {
+    background-color:#252F31;
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:70px
+}
+
+.contact .infoo {width:40%;margin-right:5%}
+
+.contact h2 {color:#FFF;margin-left:40px}
+
+.contact p {color:#6A6E71;margin-left:40px}
+
+.contact p strong {color:#D1D6DA}
+
+.contact .form {width:45%}
+
+.contact .form label {display:block;color:#D1D6DA;margin:10px 0}
+
+.contact .form input[type="text"] {
+    background-color:#4B5557;
+    color:#FFF;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom:10px
+}
+
+.contact .form textarea {
+    background-color:#4B5557;
+    color:#FFF;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom:10px;
+    height:300px
+}
+
+.contact .form input[type="submit"] {
+    background-color:#191E22;
+    color:#FFF;
+    padding:10px 20px;
+    border:0;
+    margin-top:10px
+}
+
+p {line-height:1.7;color:#888}
+
+h2, h3 {color:#777}
+
+.button {
+    background:none;
+    border:3px solid #2DCC70;
+    padding:10px 30px;
+    color:#2DCC70;
+    font-weight:bold
+}
+
+.fl-left {float:left} /* Floating Element Left */
+
+
+
+
